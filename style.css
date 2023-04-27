@@ -1,17 +1,19 @@
 body {
   margin: 0px;
-  background: hsl(221, 100%, 96%);
   display: grid;
   justify-content: center;
   align-content: center;
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 main {
   background: white;
   display: grid;
   grid-template-columns: repeat(2, 400px);
+  -webkit-box-shadow: 0px 0px 43px 6px rgba(204, 204, 204, 0.5);
+  -moz-box-shadow: 0px 0px 43px 6px rgba(204, 204, 204, 0.5);
+  box-shadow: 0px 0px 43px 6px rgba(204, 204, 204, 0.5);
 }
 
 main,
@@ -20,7 +22,7 @@ main,
 }
 
 .left {
-  background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 20px 60px;
   text-align: center;
   color: white;
@@ -29,7 +31,10 @@ main,
 }
 
 .result {
-  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
   padding: 20px;
   border-radius: 150px;
   width: 200px;
@@ -44,17 +49,18 @@ main,
 
 .result p {
   font-weight: 700;
-  color: hsl(221, 100%, 96%, .5);
+  color: hsl(221, 100%, 96%, 0.5);
   font-size: 20px;
-  margin: 0px;;
+  margin: 0px;
 }
 
-.result h1, .result p {
+.result h1,
+.result p {
   margin: 0px;
 }
 
 .left h2 {
-  color: hsl(221, 100%, 96%, .8)
+  color: hsl(221, 100%, 96%, 0.8);
 }
 
 .left h3 {
@@ -69,9 +75,9 @@ main,
 }
 
 .left-bottom p {
-  color: hsl(221, 100%, 96%, .5);
+  color: hsl(221, 100%, 96%, 0.5);
   font-size: 20px;
-  margin: 0px;;
+  margin: 0px;
 }
 
 .right {
@@ -142,7 +148,7 @@ span {
 }
 
 span:nth-last-child(1) {
-  color: hsl(224, 30%, 27%, .5);
+  color: hsl(224, 30%, 27%, 0.5);
 }
 
 .right a {
@@ -199,4 +205,3 @@ span:nth-last-child(1) {
     font-size: 16px;
   }
 }
-
