@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/henriquelesz/resultsummary_frontmentor
+- Live Site URL: https://henriquelesz.github.io/resultsummary_frontmentor/
 
 ## My process
 
@@ -28,6 +28,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Henrique R. Leszczynski](https://perika.cc)
+- Frontend Mentor - [@henriquelesz](https://www.frontendmentor.io/profile/henriquelesz)
